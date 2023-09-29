@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #9ED5C5;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.Hero {
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    background-image: url("../images/jk-placeholder-image.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.travel {
+    width: 95%;
+    display: inline-flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(222, 179, 25);
+}
+
+.travel div {
+padding-left: 400px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 95%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0d630d;
+    color: #ffffff;
+}
+
+.apple {
+    margin-right: 200px;
+    margin-top: 50px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: #0e0b0b;
+}
+
+.apple div {
+    margin-bottom: 120px;
+    padding: 20px;
+    border: 10px solid #0c690c;
+}
+
+.test {
+    width: 95%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.test div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7834c5;
+    color: #ffffff;
+}
+
+h2,h3,h4,h5 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.apple img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h6 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h6 {
+    font-size: 20px;
+}
