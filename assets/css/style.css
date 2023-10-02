@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: white;
 }
 
 header {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9ED5C5;
-    color: #ffffff;
+    background-color: #98DED9;
+    color: #292A6B;
 }
 
 h1 {
@@ -35,7 +35,7 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ p {
     display: inline-flex;
     margin-left: 30px;
     margin-bottom: 20px;
-    background-color: rgb(222, 179, 25);
+    background-color: #292A6B;
 }
 
 .travel div {
@@ -88,7 +88,7 @@ padding-left: 400px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0d630d;
+    background-color: #98DED9;
     color: #ffffff;
 }
 
@@ -108,7 +108,7 @@ padding-left: 400px;
 .apple div {
     margin-bottom: 120px;
     padding: 20px;
-    border: 10px solid #0c690c;
+    border: 10px solid #292A6B;
 }
 
 .test {
@@ -122,7 +122,7 @@ padding-left: 400px;
     padding: 50px;
     height: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #7834c5;
+    background-color: #292A6B;
     color: #ffffff;
 }
 
