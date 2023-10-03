@@ -1,3 +1,4 @@
+/* Default styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,18 +15,146 @@ h2,h3,h4,h5 {
     
 }
 
-header {
-    padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #98DED9;
-    color: #292A6B;
+p {
+    font-size: 16px;
+    text-align: center;
 }
+
 
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+h3{
+    color: white;
+}
+
+h4{
+    color:#292A6B;
+    font-size: 36px;
+}
+
+h5{
+    font-size: 24px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+h6{
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Style Header */
+header {
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #98DED9;
+    color: #292A6B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 139px;
+}
+
+/* Style Navigation Bar */
+nav ul {
+    padding-top: 40px;
+    margin-right: 15px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Logo */
+.logo img {
+    max-height: 139px; /* Adjust the height of the logo */
+}
+
+/* Style the hero container */
+.hero-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #CBDFE8; 
+    color: #fff;
+    min-height: 400px; 
+    overflow: hidden; 
+}
+
+/* Style the hero image */
+.hero-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+/* Style the hero content */
+.hero-content {
+    padding: 70px;
+    margin-left: 60px;
+    max-width: 50%;
+    background-color: #CBDFE8; 
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #292A6B;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #292A6B;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Hero {
+    display: inline-block;
+    height: 522px;
+    width: 100%;
+    background-image: url("../images/jk-placeholder-image.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+/* Style the Call to Action (CTA) button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #98DED9; 
+    color: #292A6B; 
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cta-button:hover {
+    background-color: #292A6B;
+    color:#98DED9;
+}
+
+
+/* Style Learn More categories*/
 .categories {
     display: flex;
     justify-content: center; 
@@ -47,50 +176,47 @@ h1 {
     color: black;
     font-size: 20px;
 }
+
+/*Style Meet Team*/
+.categories {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
   
-
-ul {
-    padding-top: 40px;
-    margin-right: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
+.team-category {
     text-align: center;
+    width: 200px;
+    margin: 50px;
+  }
+  
+ .team-category img {
+    width: 120%;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 20px;
+  }
+
+.team-member-title{
+    color: black;
+    font-size: 15px;
+    padding: 15px;
 }
 
-.Hero {
-    display: inline-block;
-    height: 522px;
-    width: 100%;
-    background-image: url("../images/jk-placeholder-image.jpg");
-    background-size: cover;
-    background-position: left;
+.team-members{
+    color: #292A6B;
+    background-color: white;
+    padding: 60px;
+    height: 800px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-h3{
-    color: white;
+.team-member-description {
+    margin: 0; 
 }
-
-h4{
-    color:#292A6B;
-    font-size: 36px;
-}
+ 
 
 #content-text{
     color: white;
@@ -98,6 +224,7 @@ h4{
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #292A6B;
+    font-size: ;
 }
 
 #first-paragraph{
@@ -113,15 +240,7 @@ h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.team-members{
-    color: #292A6B;
-    background-color: white;
-    padding: 60px;
-    height: 800px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
+/*Styling Testimonials*/
 .first-testimonial{
     width: 100%;
     height: 268px;
@@ -135,29 +254,68 @@ h4{
     background-color: #292A6B;
     background-image: url(".assets/images/pexels-tima-miroshnichenko-6389079.jpg");
 }
+
 .testimonial-context{
    color: white;
-   padding: 100px;
+   font-size: 30px;
+   padding: 90px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.help-section{
-    height: 923px;
+
+/*Styling Help Section*/
+.help-section {
+    height: auto; 
     background-color: #98DED9;
-
-}
-
-#help-title{
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-h6{
-    font-size: 24px;
-    color: black;
     padding: 20px;
+    text-align: center; 
+}
+
+#help-title {
+    color: #292A6B;
+    margin-top: 30px;
+    margin-bottom: 20px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.help-categories {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.help-category {
+    text-align: center;
+    width: 200px;
+}
+
+.help-category img {
+    width: 150%; 
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Style the Call to Action (CTA) button in Help Section*/
+.cta-button2 {
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: 15px;
+    background-color: #292A6B; 
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cta-button2:hover {
+    background-color: white;
+    color:#292A6B;
+}
+
 
 
 
