@@ -8,6 +8,12 @@ body {
     background-color: white;
 }
 
+h2,h3,h4,h5 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
 header {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,11 +27,11 @@ h1 {
 }
 
 ul {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 40px;
+    margin-right: 15px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 li {
@@ -46,27 +52,92 @@ p {
 
 .Hero {
     display: inline-block;
-    height: 500px;
-    width: 50%;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    margin-left: 40px;
+    height: 522px;
+    width: 100%;
     background-image: url("../images/jk-placeholder-image.jpg");
     background-size: cover;
     background-position: left;
 }
 
-.travel {
-    width: 95%;
-    display: inline-flex;
-    margin-left: 30px;
-    margin-bottom: 20px;
+
+h3{
+    color: white;
+}
+
+h4{
+    color:#292A6B;
+    font-size: 36px;
+}
+
+#content-text{
+    color: white;
+    padding: 60px 100px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #292A6B;
 }
 
-.travel div {
-padding-left: 400px;
+#first-paragraph{
+    text-align: left;
 }
+
+.second-section{
+    color: #292A6B;
+    background-color: #98DED9;
+    padding: 100px;
+    height: 279px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team-members{
+    color: #292A6B;
+    background-color: white;
+    padding: 60px;
+    height: 800px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first-testimonial{
+    width: 100%;
+    height: 268px;
+    background-color: #292A6B;
+    background-image: url(".assets/images/pexels-tima-miroshnichenko-6389079.jpg");
+}
+
+.second-testimonial{
+    width: 100%;
+    height: 268px;
+    background-color: #292A6B;
+    background-image: url(".assets/images/pexels-tima-miroshnichenko-6389079.jpg");
+}
+.testimonial-context{
+   color: white;
+   padding: 100px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.help-section{
+    height: 923px;
+    background-color: #98DED9;
+
+}
+
+#help-title{
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h6{
+    font-size: 24px;
+    color: black;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,9 +149,8 @@ padding-left: 400px;
 }
 
 .content {
-    width: 95%;
+    width: 100%;
     display: inline-block;
-    margin-left: 30px;
 }
 
 .content div {
@@ -92,69 +162,9 @@ padding-left: 400px;
     color: #ffffff;
 }
 
-.apple {
-    margin-right: 200px;
-    margin-top: 50px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    color: #0e0b0b;
-}
-
-.apple div {
-    margin-bottom: 120px;
-    padding: 20px;
-    border: 10px solid #292A6B;
-}
-
-.test {
-    width: 95%;
-    display: inline-block;
-    margin-left: 30px;
-}
-
-.test div{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #292A6B;
-    color: #ffffff;
-}
-
-h2,h3,h4,h5 {
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-
-.apple img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .content img {
     max-height: 200px;
 }
 
-.content h6 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h6 {
-    font-size: 20px;
-}
