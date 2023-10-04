@@ -8,15 +8,15 @@
 
 <body>
   <header>
-<!--Nav bar-->
+<!--Nav bar Links work-->
     <div class="logo">
         <img src="./assets/images/WellMates Logo Carlos-01.png" alt="Logo">
     </div>
     <nav>
         <ul>
-            <li><a href="#">Wellness Programs</a></li>
-            <li><a href="#">Ebook</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="./single.html">Wellness Programs</a></li>
+            <li><a href="#news-title">Latest News</a></li>
+            <li><a href="#Meet-Team">About Us</a></li>
         </ul>
     </nav>
   </header>
@@ -54,7 +54,7 @@
         </section>
 
         <section class="team-members">
-             <h4>MEET THE TEAM</h4>
+             <h4 id="Meet-Team">MEET THE TEAM</h4>
              <div class="categories">
                 <div class="team-category">
                 <img src="./assets/images/pexels-julia-larson-6456177.jpg" alt="team member"/>
@@ -174,14 +174,23 @@
          <section>
             <div class="podcast">
                 <h2>Don't Miss Out! Tune In!</h2>
+                <img id="ipod" src="" alt="Category 1">
                 <p>Welcome to Water your Plants Podcast where we dive deep into topics related to health, wellness, and personal development. We offer valuable insights, expert advice, and inspiring stories that can empower you to make positive changes in your life.
                 </p>
+                <button id="cta-button2">Listen to our Podcast!</button>
             </div>
          </section>
 
          <section>
             <div class="sign-up">
                 <h2>Let's Keep In Touch</h2>
+                <form method="POST">
+                    <div class="input-group">
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" placeholder="janedoe@mail.com" />
+                      <button class="cta-button3">Sign Up</button>
+                </form>
+                    </div>
                 <p>Subscribe to our newsletter!
                 </p>
             </div>
@@ -194,7 +203,7 @@
 <!--KEEP IN TOUCH FOOTNOTES-->
     <footer class="footer">
        <img src="./assets/images/WellMates Logo Carlos-01.png" alt="Logo">
-        <p>FOOTER</p>
+        <p></p>
     </footer>
 
 <script src="./single.js"></script>
