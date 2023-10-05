@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -80,6 +81,13 @@ li {
 a {
     color: black;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #292A6B;
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
 }
 
 /* Logo */
@@ -190,7 +198,7 @@ a {
     width: 200px;
     height: auto;
     margin: 50px;
-  }
+}
   
  .team-category img {
     width: 120%;
@@ -212,11 +220,14 @@ a {
     padding: 60px;
     height: auto;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .team-member-description {
     margin: 0; 
+}
+
+#team-members h4{
+    margin-top: 40px;
 }
  
 /* Style First Sectiom */
@@ -280,10 +291,8 @@ a {
 }
 
 #help-title {
-    color: #292A6B;
     margin-top: 30px;
     margin-bottom: 20px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .help-categories {
@@ -312,21 +321,24 @@ a {
     display: inline-block;
     padding: 10px 40px;
     margin-top: 15px;
-    background-color: #292A6B; 
-    color: white;
     text-decoration: none;
     border-radius: 25px;
     transition: background-color 0.3s ease;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.cta-button2:hover {
+a.cta-button2{
+    background-color: #292A6B; 
+    color: white;
+}
+
+a.cta-button2:hover {
     background-color: white;
     color:#292A6B;
 }
 
-/* Style News*/
-.news-section{
+/* Style Latest News section */
+#news-section{
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -346,6 +358,7 @@ a {
     width: 150%;
     height: auto;
     padding: 20px;
+    margin: 0 auto;
   }
 
 /* Style the Call to Action (CTA) button in Help Section*/
