@@ -162,6 +162,10 @@ nav ul li a:hover {
     color:#98DED9;
 }
 
+.category-title {
+    white-space: nowrap;
+  }
+
 /* Style First Info Sectiom */
 .first-section{
     max-width: 100%;
