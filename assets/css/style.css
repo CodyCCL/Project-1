@@ -294,6 +294,22 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
+.help-categories {
+    display: flex;
+    justify-content: space-between; /* Or use justify-content: center; for centering the children */
+  }
+  
+  .help-category {
+    flex-basis: calc(50% - 30px); /* Set the width of each child element */
+    flex-grow: 1;
+    margin: 15px; /* Optional margin between the child elements*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+      
+
 .help-section p{
     font-size: 20px;
 }
