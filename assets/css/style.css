@@ -391,6 +391,10 @@ a.cta-button2:hover {
     margin: 0 auto;
   }
 
+  .news-section h4{
+    font-size: 18px;
+  }
+
 /* Style the Call to Action (CTA) button in Help Section*/
 .cta-button3 {
     display: inline-block;
