@@ -1,4 +1,4 @@
-var req = 'https://newsapi.org/v2/everything?q=anxiety&from=2023-10-01&sortBy=popularity&apiKey=d614ee047e9c4a1d862800207e29abed';
+var req = 'https://newsapi.org/v2/everything?q=stress-depression&from=2023-10-01&sortBy=popularity&apiKey=d614ee047e9c4a1d862800207e29abed';
 let updateArticles = function (articles){
     if (articles.length >= 3) {
         let article1title = document.querySelector("#article-1 h2")
