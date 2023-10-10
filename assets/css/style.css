@@ -533,3 +533,13 @@ input[type="email" i] {
     li {
         margin: 0 10px;
     }}
+
+    .news-categories {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .news-categories > * {
+        flex-grow: 1;
+        flex-basis: 25%; 
+      }
