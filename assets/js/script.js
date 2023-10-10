@@ -43,3 +43,46 @@ fetch(req)
           .catch(function (error) {
             alert('Unable to connect');
           });
+
+var articlesEl = document.querySelector('#articles');
+//NYT API key
+var APIKey = '9aowgcszLqFbGZEfQ1zABNeVTAnbhbrb';
+
+
+//Change q={search} for options
+var getArticles = function () {
+    var apiUrl = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=exercise&api-key=' + APIKey;
+      console.log(apiUrl) 
+          fetch(apiUrl)
+            .then(function (response) {
+              if (response.ok) {
+                console.log(response);
+                response.json().then(function (data) {
+                console.log(data);
+                printResults(data);
+                });
+              } else {
+              alert('Error: ' + response.statusText);
+              }
+              })
+              .catch(function (error) {
+            alert('Unable to connect');
+          });
+};
+          
+function printResults(resultObj) {
+  console.log(resultObj);
+          
+    var articles = resultObj.response.docs
+          
+          
+for (let i=0; i < 3; i++) {
+  articlesEl.children[i].getElementsByTagName("h7")[0].textContent=articles[i].headline.main
+  articlesEl.children[i].getElementsByTagName("a")[0].href=articles[i].web_url
+}
+ //children gets divs
+
+}
+          
+getArticles()
+          
