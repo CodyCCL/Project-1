@@ -425,30 +425,6 @@ a.cta-button2:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.podcast-content {
-    max-width: 800px; 
-}
-
-.podcast h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #292A6B;
-}
-
-.podcast-image img {
-    max-width: 100%;
-    height: auto;
-    max-height: 450px;
-    display: block;
-    margin: 0 auto; 
-}
-
-.podcast p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #292A6B;
-}
-
 .cta-button2 {
     display: inline-block;
     padding: 10px 40px;
@@ -516,7 +492,23 @@ input[type="email" i] {
     max-height: 100%;
 }
   
+.Times {
+    display: flex;
+    color: white;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    justify-content: center; 
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #161D6F;
+}
 
+.article {
+    padding: 25px;
+}
 /*Style Footer*/
 .footer{
     background-color: white;
@@ -546,4 +538,4 @@ input[type="email" i] {
 
     li {
         margin: 0 10px;
-    }
+    }}
