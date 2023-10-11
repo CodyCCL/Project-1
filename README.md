@@ -1,4 +1,4 @@
-# Project-1
+# Wellness/Wellmates (Project-1)
 
 ## User Criteria 
 
